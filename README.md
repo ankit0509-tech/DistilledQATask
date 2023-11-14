@@ -35,7 +35,7 @@ For report generation, we have two reports- Extent report and the testng report.
 
 
 **CI/CD**
-The CI-CD pipeline is configured in the .yml file under workflows folder.
+The CI-CD pipeline is configured in the CICD.yml file.
 
 Running the Project-
 1.Clone the repository
