@@ -55,18 +55,18 @@ public class CountyResultPage extends TestBase{
         WebElement showResultsBtn = driver.findElement(By.cssSelector("button[data-testid='filters-modal-show-results-button']"));
 
         JavascriptExecutor js = (JavascriptExecutor) driver;
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         js.executeScript("arguments[0].scrollIntoView(true);", showResultsBtn);
 
     }
     public void applyKeywordFilter(){
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         keywordInput.click();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         keywordInput.sendKeys("garage");
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         showResultsBtn.click();
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
     }
 

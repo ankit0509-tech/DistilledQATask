@@ -31,7 +31,7 @@ public class CountyResultPageTest extends TestBase {
     @Test(priority = 2)
     public void testCountySearchResultsCount() {
         int count = countyResultPage.countySearchResultsCount();
-        Assert.assertTrue(count > 0, "County search results count should be greater than 0");
+        Assert.assertTrue(count > 0, "County search results count should be less than 0");
     }
 
 
