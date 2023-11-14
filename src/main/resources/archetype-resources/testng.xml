@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite" parallel="false" verbose="2">
+
+
+
+            <listeners>
+                <listener class-name="ExtentReportListener.ExtentReportListener"/>
+            </listeners>
+
+    <test name="HomePage Test Suite">
+        <classes>
+            <class name="testFiles.HomePageTest"/>
+        </classes>
+    </test>
+
+    <test name="CountySearch Test Suite">
+        <classes>
+            <class name="testFiles.CountyResultPageTest"/>
+        </classes>
+    </test>
+
+    <test name="Keyword Filter Test Suite">
+        <classes>
+            <class name="testFiles.KeywordFilteredPageTest"/>
+        </classes>
+    </test>
+</suite>
