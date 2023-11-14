@@ -2,7 +2,8 @@
 
 
 **Total Test Cases- 14. Passed=14    Failed=0.**
-\n
+
+
 This project is a Page-Object Model created for Distilled QA position task.
 #**Structure**
 The basic project structure comprises of three page classes and three test classes. The three classes- HomePage.java, CountyResultPage.java and KeywordFilteredPage.java consists of test code from each of them respectively.
