@@ -1,4 +1,6 @@
 # DistilledQATask
+
+
 **Total Test Cases- 14. Passed=14    Failed=0.**
 \n
 This project is a Page-Object Model created for Distilled QA position task.
@@ -7,8 +9,10 @@ The basic project structure comprises of three page classes and three test class
 The three page classes contain the Object Repository andf the test methods for the respective pages. The three test classes comprise of the tests and call the methods defined in the page classes.
 Apart from these six classes, we have the testng.xml file which comprises of all the configurations for running the tests and listeners for extent report generation.We have the pom.xml for all the maven dependency definitions.
 We have a TestBase file for the initialization of the driver and the common utilities.
+
 **Page Classes- src/main/java/pageobjects**
 **Test Classes- src/test/java/testFiles**
+
 **HompePageTest.java**-
 1. Test Case1- homePageTitleTest- This test case is for validating the title of the daft.ie homepage.
 2. Test Case2- provideConsentClickTest- This test case is for clicking on the 'Agree' button for the data policy.
