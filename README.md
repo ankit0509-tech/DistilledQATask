@@ -6,6 +6,7 @@ This project is a Page-Object Model created for Distilled QA position task.
 The basic project structure comprises of three page classes and three test classes. The three classes- HomePage.java, CountyResultPage.java and KeywordFilteredPage.java consists of test code from each of them respectively.
 The three page classes contain the Object Repository andf the test methods for the respective pages. The three test classes comprise of the tests and call the methods defined in the page classes.
 Apart from these six classes, we have the testng.xml file which comprises of all the configurations for running the tests and listeners for extent report generation.We have the pom.xml for all the maven dependency definitions.
+We have a TestBase file for the initialization of the driver and the common utilities.
 
 **HompePageTest.java**-
 1. Test Case1- homePageTitleTest- This test case is for validating the title of the daft.ie homepage.
@@ -35,7 +36,7 @@ For report generation, we have two reports- Extent report and the testng report.
 
 
 **CI/CD**
-The CI-CD pipeline is configured in the .yml file under workflows folder.
+The CI-CD pipeline is configured in the CICD.yml file.
 
 Running the Project-
 1.Clone the repository
