@@ -42,17 +42,17 @@ public class HomePageTest extends TestBase {
     }
 
     @Test(priority = 4)
-    public void list() {
-        boolean flag = homePage.list();
+    public void islistBoxDisplayed() {
+        boolean flag = homePage.islistBoxDisplayed();
 
         Assert.assertTrue(flag);
 
     }
 
     @Test(priority = 5)
-    public void provideClick() {
+    public void listBoxClick() {
 
-        homePage.provideClick();
+        homePage.listBoxClick();
     }
 }
 

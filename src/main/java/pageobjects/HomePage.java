@@ -50,12 +50,12 @@ public class HomePage extends TestBase {
 
 
 
-    }   public boolean list() {
+    }   public boolean islistBoxDisplayed() {
 
         return listBox.isDisplayed();
     }
 
-    public void provideClick(){
+    public void listBoxClick(){
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         listBox.click();
     }
