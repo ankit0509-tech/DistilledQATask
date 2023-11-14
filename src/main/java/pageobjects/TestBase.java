@@ -37,7 +37,6 @@ public class TestBase {
                 System.setProperty("webdriver.gecko.driver", "/Users/Ankit Chatterjee/Downloads/geckodriver-v0.33.0-win64");
                 driver = new FirefoxDriver();
             }
-
             driver.manage().window().maximize();
             driver.manage().deleteAllCookies();
             driver.get(prop.getProperty("url"));
